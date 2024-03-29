@@ -1,0 +1,72 @@
+.wrapper {
+  width: auto;
+  display: flex;
+}
+
+.candidate {
+  width: 25%;
+  background-color: #f2d055;
+  padding: 10px 10px;
+  border-right: 2px solid black;
+  padding-bottom: 40px;
+}
+
+.mid_buttons {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.candi_btn{
+  width:160px;
+}
+
+.btns {
+  width: 400px;
+  font-size: 20px;
+  height: 80px;
+}
+
+.plans {
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+}
+.plans_details {
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 5px;
+  background-color: white;
+  text-align: left;
+  padding: 20px;
+  min-width: 400px;
+}
+
+.plans_details span{
+text-decoration: line-through;
+}
+.package_plan {
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.ellipse1 {
+  position: absolute;
+  left: 0px;
+  z-index: -10;
+}
+.ellipse2 {
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+}
+
+.payment_type {
+  padding: 50px 2px;
+}
+.payment_btn {
+  width: 500px;
+  font-size: 25px;
+  padding: 20px;
+}
